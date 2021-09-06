@@ -1,15 +1,15 @@
 import React from "react"
 import styled from "styled-components"
 
-const ResourceCard = () => {
+const ResourceCard = (props) => {
     return ( 
         <ResourceCardEl>
             <div className="initials-container">
-                <span>DK</span>
+                <span>{props.abbreviation}</span>
             </div>
             <div className="info-container">
-                <h2><a href="">Resource Title</a></h2>
-                <p>A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.</p>
+                <h2><a aria-label={props.name + ' (opens in a new tab'} target="_blank" href={props.url}>{props.name}</a></h2>
+                <p>{props.description}</p>
             </div>
         </ResourceCardEl>
     )

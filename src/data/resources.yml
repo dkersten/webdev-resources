@@ -4,58 +4,70 @@
   url: https://dribbble.com/
   category: inspiration
   description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  abbreviation: DR
 
 - name: Land-book
   url: https://land-book.com/
   category: inspiration
   description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  abbreviation: LB
 
 - name: Codepen
   url: https://codepen.io/
   category: inspiration
   description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  abbreviation: CP
 
 - name: 0to255
   url: https://www.0to255.com/
   category: color
   description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  abbreviation: "02"
 
 - name: Coolers
   url: https://coolors.co/
   category: color
   description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  abbreviation: CO
 
 - name: Paletton
   url: https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
   category: color
   description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  abbreviation: PA
 
 - name: Colormind
   url: http://colormind.io/
   category: color
   description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  abbreviation: CM
 
 - name: Tint & Shade Generator
   url: https://maketintsandshades.com/
   category: color
   description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  abbreviation: TS
 
 - name: UI Gradients
   url: https://uigradients.com/
   category: color
   description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  abbreviation: UG
 
 - name: CSS Tricks Almanac
   url: https://css-tricks.com/almanac/
   category: design
   description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  abbreviation: CT
 
 - name: CSS Tricks Complete Guide to Flexbox
   url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
   category: color
   description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  abbreviation: CT
 
 - name: CSS Tricks Complete Guide to Grid
   url: https://css-tricks.com/snippets/css/complete-guide-grid/
   category: color
   description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  abbreviation: CT
