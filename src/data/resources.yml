@@ -3,71 +3,101 @@
 - name: Dribbble
   url: https://dribbble.com/
   category: inspiration
-  description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  description: Find design inspiration for different mediums including web design, graphic design, and more
   abbreviation: DR
 
 - name: Land-book
   url: https://land-book.com/
   category: inspiration
-  description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  description: A collection of websites with great designs. My favorite place to draw inspiration from when building out a landing page
   abbreviation: LB
 
 - name: Codepen
   url: https://codepen.io/
   category: inspiration
-  description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  description: A frontend coding playground where you can create your own designs, get inspiration from others' design, and even fork and modify existing designs
   abbreviation: CP
 
 - name: 0to255
   url: https://www.0to255.com/
   category: color
-  description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  description: A tool to generate variations of colors. A great place to find hover state, border, and gradient colors for elements
   abbreviation: "02"
 
 - name: Coolers
   url: https://coolors.co/
   category: color
-  description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  description: A tool to search for color palettes, generate your own, create gradients, and more
   abbreviation: CO
 
 - name: Paletton
   url: https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
   category: color
-  description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  description: A tool to create color palettes based on color theory
   abbreviation: PA
 
 - name: Colormind
   url: http://colormind.io/
   category: color
-  description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  description: A color palette generator and tool to see how different website components would look based on the specified colors
   abbreviation: CM
 
 - name: Tint & Shade Generator
   url: https://maketintsandshades.com/
   category: color
-  description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  description: Another tool the lets you create different shades of a color perfect for hover states, borders, and gradients
   abbreviation: TS
 
 - name: UI Gradients
   url: https://uigradients.com/
   category: color
-  description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  description: A collection of CSS gradients that you can use (or create your own) easy with automatically generated CSS
   abbreviation: UG
 
 - name: CSS Tricks Almanac
   url: https://css-tricks.com/almanac/
   category: design
-  description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  description: The definitive collection of CSS selectors and properties, complete with explanations, documentation, and examples
   abbreviation: CT
 
 - name: CSS Tricks Complete Guide to Flexbox
   url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-  category: color
-  description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  category: design
+  description: The absolute best guide to flexbox with explanations and illustrations for each parent and child property
   abbreviation: CT
 
 - name: CSS Tricks Complete Guide to Grid
   url: https://css-tricks.com/snippets/css/complete-guide-grid/
-  category: color
-  description: A collection of various tools, resources, articles, and documentation I've come across while developing that I've found helpful and/or incorporated into my workflow.
+  category: design
+  description: The absolute best guide to CSS Grid with explanations and illustrations for each parent and child property
   abbreviation: CT
+
+- name: Beautiful CSS box-shadows by CSS Scan
+  url: https://getcssscan.com/css-box-shadow-examples
+  category: design
+  description: A collection of various box shadows to spice up your components
+  abbreviation: CS
+
+- name: unSplash
+  url: https://unsplash.com/
+  category: img
+  description: Free, high resolution photos for a wide variety of categories
+  abbreviation: US
+
+- name: Coverr
+  url: http://www.coverr.co/
+  category: img
+  description: Free videos to use in your design. Perfect for hero sections
+  abbreviation: CV
+
+- name: Random User Generator
+  url: https://randomuser.me/
+  category: img
+  description: An API to serve up details about fake/random people including headshots, names, emails, and more
+  abbreviation: RU
+
+- name: unDraw
+  url: https://undraw.co/illustrations
+  category: img
+  description: Free, open source illustrations that can be customized to any color
+  abbreviation: UD

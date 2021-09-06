@@ -23,12 +23,10 @@ const ResourceContainer = () => {
 
     const resources = data.allResourcesYaml.nodes
 
-    console.log(resources)
-
     return (
         <ResourceContainerDiv className="wrapper">
             {
-                resources.map((resource, index) => <ResourceCard key={index} {...resource} />)
+                resources.map((resource) => <ResourceCard key={resource.id} {...resource} />)
                }
 
 
