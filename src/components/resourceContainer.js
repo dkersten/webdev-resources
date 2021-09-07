@@ -28,22 +28,14 @@ const ResourceContainer = () => {
             {
                 resources.map((resource) => <ResourceCard key={resource.id} {...resource} />)
                }
-
-
-            {/* <ResourceCard />
-            <ResourceCard />
-            <ResourceCard />
-            <ResourceCard />
-            <ResourceCard />
-            <ResourceCard />
-            <ResourceCard /> */}
         </ResourceContainerDiv>
     )
 }
 
-const ResourceContainerDiv = styled.div`
+const ResourceContainerDiv = styled.main`
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: center; */
 `
 
 export default ResourceContainer

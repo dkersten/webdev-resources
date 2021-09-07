@@ -1,5 +1,5 @@
 ---
-# categories: img, color, accessibility, inspiration, design, misc
+# categories: img, color, accessibility, inspiration, design, fonts, learning, tooling, misc
 - name: Dribbble
   url: https://dribbble.com/
   category: inspiration
@@ -78,11 +78,23 @@
   description: A collection of various box shadows to spice up your components
   abbreviation: CS
 
+- name: Refactoring UI
+  url: https://www.refactoringui.com/
+  category: design
+  description: (Paid) A collection of design tips to help with building aesthetically pleasing UIs
+  abbreviation: RU
+
 - name: unSplash
   url: https://unsplash.com/
   category: img
   description: Free, high resolution photos for a wide variety of categories
   abbreviation: US
+
+- name: Compressor.io
+  url: https://compressor.io/
+  category: img
+  description: A free photo compression tool that dramatically reduces image file sizes with little to no noticable reduction in quality
+  abbreviation: CO
 
 - name: Coverr
   url: http://www.coverr.co/
@@ -101,3 +113,87 @@
   category: img
   description: Free, open source illustrations that can be customized to any color
   abbreviation: UD
+
+- name: Google Fonts
+  url: https://fonts.google.com/
+  category: fonts
+  description: Free, open source fonts and icons that can be used across the web and locally
+  abbreviation: GF
+
+- name: FontAwesome
+  url: https://fontawesome.com/
+  category: fonts
+  description: (Free and paid version) A collection of icons that can be used on the web and locally as font icons, svgs, or otfs
+  abbreviation: UD
+
+- name: Adobe Color Contrast Analyzer
+  url: https://color.adobe.com/create/color-contrast-analyzer
+  category: accessibility
+  description: A tool that checks for sufficient color contrast based on WCAG standards and suggests similar alternatives if the colors fail
+  abbreviation: AD
+
+- name: Web Content Accessibility Guidelines
+  url: https://www.w3.org/WAI/standards-guidelines/wcag/
+  category: accessibility
+  description: Documentation for webs accessibility standards(WCAG)
+  abbreviation: WC
+
+- name: Web Accessibility by Google
+  url: https://www.udacity.com/course/web-accessibility--ud891
+  category: accessibility
+  description: A free course taught by Google employees on Udacity to get started in web accessibility
+  abbreviation: GO
+
+- name: Shoptalk Show Podcast
+  url: https://shoptalkshow.com/
+  category: misc
+  description: A web development based podcast by Dave Rupert and Chris Coyier
+  abbreviation: ST
+
+- name: React Router
+  url: https://reactrouter.com/web/guides/quick-start
+  category: learning
+  description: Documentation for React Router (web and native). Probably the best documentation I've come accross
+  abbreviation: RR
+
+- name: Frontend Masters
+  url: https://frontendmasters.com/
+  category: learning
+  description: (Paid) A collection of in-depth courses, ranging from beginner to advanced, covering just about anything relating to the frontend (and some backend)
+  abbreviation: FM
+
+- name: Visual Studio Code
+  url: https://code.visualstudio.com/
+  category: tooling
+  description: A free and powerful text editor that has a thriving plugin community to make your dev environment more efficient
+  abbreviation: VS
+
+- name: Emmet
+  url: https://docs.emmet.io/cheat-sheet/
+  category: tooling
+  description: A tool to speed up HTML and CSS development by providing shortcuts to often repeated typing
+  abbreviation: EM
+
+- name: Netlify
+  url: https://www.netlify.com/
+  category: tooling
+  description: Free (and paid tiers) web hosting for static sites. Painless deployment from Github repos
+  abbreviation: NE
+
+- name: Heroku
+  url: https://www.heroku.com/
+  category: tooling
+  description: Free (and paid tiers) web hosting for sites that may require a server
+  abbreviation: HE
+
+- name: Gatsby
+  url: https://www.heroku.com/
+  category: tooling
+  description: Free (and paid tiers) static site builder with super simple deployment
+  abbreviation: GA
+
+- name: Vue.js
+  url: https://vuejs.org/
+  category: tooling
+  description: A progressive JavaScript framework that is approachable, versatile, and performant. A great alternative to React
+  abbreviation: GA

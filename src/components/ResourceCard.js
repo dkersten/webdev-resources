@@ -17,7 +17,7 @@ const ResourceCard = (props) => {
 
 const ResourceCardEl = styled.div`
     margin: 0 1.5rem 3rem 0;
-    width: 375px;
+    width: 350px;
     position: relative;
 
     .initials-container {

@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import '../components/wrapper.css';
 
 const Header = () => {
     return ( 
@@ -14,10 +15,14 @@ const Header = () => {
 
 const HeaderEl = styled.header`
     text-align: center;
-    background: linear-gradient(to bottom right, rgba(75, 144, 226, .4), rgba(91, 236, 203, .4));
-    color: #2f2f2f;
-    text-shadow: 1px 1px 3px rgba(255,255,255,.8);
+    background: rgba(75, 144, 226, 1);
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.4);
     line-height: 1.6;
+
+    .wrapper {
+        max-width: 800px;
+    }
 `
 
 export default Header
