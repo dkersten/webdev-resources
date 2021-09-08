@@ -1,6 +1,4 @@
 import * as React from "react"
-import styled from "styled-components"
-// import { graphql, useStaticQuery } from "gatsby"
 
 import AccessibilityResources from "./AccessibilityResources"
 import ColorResources from "./ColorResources"
@@ -15,7 +13,7 @@ import ToolingResources from "./ToolingResources"
 const ResourceContainer = () => {
 
     return (
-        <ResourceContainerDiv>
+        <main>
             <AccessibilityResources />
             <ColorResources />
             <DesignResources />
@@ -26,12 +24,8 @@ const ResourceContainer = () => {
             <MiscResources />
             <ToolingResources />
             
-        </ResourceContainerDiv>
+        </main>
     )
 }
-
-const ResourceContainerDiv = styled.main`
-    /* justify-content: center; */
-`
 
 export default ResourceContainer

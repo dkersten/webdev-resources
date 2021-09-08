@@ -3,8 +3,88 @@
   padding-bottom: 3rem;
 }
 
+#color,
+#fonts,
+#inspiration,
+#misc {
+  background: #fbfbfd;
+}
+
+.resource-section .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .resource-section h2 {
-  /* margin-bottom: 2rem;
+  margin-bottom: 4rem;
+  color: #1d1d1f;
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 779px) {
+  .resource-section .flex-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .resource-section h2 {
+    text-align: center;
+    margin-bottom: 3.5rem;
+  }
+}
+
+.resource-card {
+  margin: 0 1.5rem 3rem 0;
+  width: 350px;
+  position: relative;
+}
+
+@media only screen and (max-width: 779px) {
+  .resource-card {
+    text-align: center;
+    margin: 0 auto 2rem;
+  }
+}
+
+.initials-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 779px) {
+  .initials-container {
+    justify-content: center;
+  }
+}
+
+.initials-container span {
+  font-size: 30px;
+  font-weight: 700;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(#4b90e2, #5beccb);
+  color: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+..resource-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.resource-card h3 a {
+  text-decoration: none;
+  color: #2375d7;
+}
+
+.resource-card p {
+  font-size: 14px;
   color: rgba(26, 27, 28, 0.6);
-  font-size: 36px; */
+  line-height: 1.5;
 }
