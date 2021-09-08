@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import '../components/wrapper.css';
+import '../components/wrapper.css'
 
 const Header = () => {
     return ( 

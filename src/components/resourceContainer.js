@@ -1,114 +1,36 @@
 import * as React from "react"
 import styled from "styled-components"
-import { graphql, useStaticQuery } from "gatsby"
+// import { graphql, useStaticQuery } from "gatsby"
 
 import AccessibilityResources from "./AccessibilityResources"
+import ColorResources from "./ColorResources"
+import DesignResources from "./DesignResources"
+import FontsResources from "./FontResources"
+import ImgResources from "./ImgResources"
+import InspirationResources from "./InspirationResources"
+import LearningResources from "./LearningResources"
+import MiscResources from "./MiscResources"
+import ToolingResources from "./ToolingResources"
 
 const ResourceContainer = () => {
 
-    const data = useStaticQuery(graphql`
-        query {
-            allResourcesYaml {
-                nodes {
-                  category
-                  description
-                  name
-                  id
-                  url
-                  abbreviation
-                }
-              }
-        }
-    `)
-
-    const resources = data.allResourcesYaml.nodes
-
     return (
-        <ResourceContainerDiv className="wrapper">
+        <ResourceContainerDiv>
             <AccessibilityResources />
-
-            {/* <section id="accessibility">
-                <h2>Accessibility</h2>
-                <div className="flex-container">
-                {
-                    resources.map((resource) => <ResourceCard key={resource.id} {...resource} />)
-                }
-                </div>
-            </section>
-            <section id="color">
-                <h2>Color</h2>
-                <div className="flex-container">
-                {
-                    resources.map((resource) => <ResourceCard key={resource.id} {...resource} />)
-                }
-                </div>
-            </section>
-            <section id="design">
-                <h2>Design</h2>
-                <div className="flex-container">
-                {
-                    resources.map((resource) => <ResourceCard key={resource.id} {...resource} />)
-                }
-                </div>
-            </section>
-            <section id="fonts">
-                <h2>Fonts</h2>
-                <div className="flex-container">
-                {
-                    resources.map((resource) => <ResourceCard key={resource.id} {...resource} />)
-                }
-                </div>
-            </section>
-            <section>
-                <h2>Images</h2>
-                <div className="flex-container">
-                {
-                    resources.map((resource) => <ResourceCard key={resource.id} {...resource} />)
-                }
-                </div>
-            </section>
-            <section>
-                <h2>Inspiration</h2>
-                <div className="flex-container">
-                {
-                    resources.map((resource) => <ResourceCard key={resource.id} {...resource} />)
-                }
-                </div>
-            </section>
-            <section>
-                <h2>Learning</h2>
-                <div className="flex-container">
-                {
-                    resources.map((resource) => <ResourceCard key={resource.id} {...resource} />)
-                }
-                </div>
-            </section>
-            <section>
-                <h2>Miscellaneous</h2>
-                <div className="flex-container">
-                {
-                    resources.map((resource) => <ResourceCard key={resource.id} {...resource} />)
-                }
-                </div>
-            </section>
-            <section>
-                <h2>Tooling</h2>
-                <div className="flex-container">
-                {
-                    resources.map((resource) => <ResourceCard key={resource.id} {...resource} />)
-                }
-                </div>
-            </section> */}
+            <ColorResources />
+            <DesignResources />
+            <FontsResources />
+            <ImgResources />
+            <InspirationResources />
+            <LearningResources />
+            <MiscResources />
+            <ToolingResources />
+            
         </ResourceContainerDiv>
     )
 }
 
 const ResourceContainerDiv = styled.main`
-
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
     /* justify-content: center; */
 `
 

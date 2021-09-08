@@ -8,7 +8,7 @@ const ResourceCard = (props) => {
                 <span>{props.abbreviation}</span>
             </div>
             <div className="info-container">
-                <h2><a aria-label={props.name + ' (opens in a new tab'} target="_blank" href={props.url}>{props.name}</a></h2>
+                <h3><a aria-label={props.name + ' (opens in a new tab'} target="_blank" href={props.url}>{props.name}</a></h3>
                 <p>{props.description}</p>
             </div>
         </ResourceCardEl>
@@ -20,11 +20,20 @@ const ResourceCardEl = styled.div`
     width: 350px;
     position: relative;
 
+    @media only screen and (max-width: 779px) {
+        text-align: center;
+        margin-right: 0;
+    }
+
     .initials-container {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
+
+        @media only screen and (max-width: 779px) {
+            justify-content: center;
+        }
         
         span {
             font-size: 30px;
@@ -42,7 +51,7 @@ const ResourceCardEl = styled.div`
         }
     }
 
-    h2 {
+    h3 {
         font-size: 22px;
         margin-bottom: 10px;
 

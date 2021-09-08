@@ -4,12 +4,12 @@ import { graphql, useStaticQuery } from "gatsby"
 
 import ResourceCard from "./ResourceCard"
 
-const AccessibilityResources = () => {
+const DesignResources = () => {
 
     const data = useStaticQuery(graphql`
         query {
             allResourcesYaml(
-                filter: {category: {eq: "accessibility"}}
+                filter: {category: {eq: "design"}}
                 sort: {order: ASC, fields: name}
               ) {
                 nodes {
@@ -27,9 +27,9 @@ const AccessibilityResources = () => {
     const resources = data.allResourcesYaml.nodes
 
     return (
-        <SectionEl id="accessibility" class="resource-section">
+        <SectionEl id="design" class="resource-section">
             <div className="wrapper">
-                <h2>Accessibility</h2>
+                <h2>Design</h2>
 
                 <div className="flex-container">
                 {
@@ -64,4 +64,4 @@ const SectionEl = styled.section`
     }
 `
 
-export default AccessibilityResources
+export default DesignResources
